@@ -32,9 +32,9 @@ contract ERC20Token{
     
     /// @author Petar Bojovic
     /// @notice Token full name
-    /// @dev Implementation of ERC-20 token name, not defined in ERC-20 standard
+    /// @dev Implementation of ERC-20 name function
     /// @return string representing token fully qualified name
-    function getName()
+    function name()
         public
         view
         returns (string memory)
@@ -44,9 +44,9 @@ contract ERC20Token{
     
     /// @author Petar Bojovic
     /// @notice Token symbol
-    /// @dev Implementation of ERC-20 token symbol, not defined in ERC-20 standard
+    /// @dev Implementation of ERC-20 symbol function
     /// @return string representing token symbol
-    function getSymbol()
+    function symbol()
         public
         view
         returns (string memory)
@@ -56,9 +56,9 @@ contract ERC20Token{
     
     /// @author Petar Bojovic
     /// @notice Decimal places of token
-    /// @dev Implementation of ERC-20 decimal places, not defined in ERC-20 standard
+    /// @dev Implementation of ERC-20 decimal function
     /// @return uint8 representing number of decimal places ERC-20 token
-    function getDecimal() 
+    function decimal() 
         public 
         view 
         returns (uint8)
